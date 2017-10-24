@@ -1,0 +1,21 @@
+# Welcome to GenPainter's config.
+
+# Name of the heightmap to generate. 
+# Default heightmaps: big_5400x2700, normal_1000x500, and small_250_150.
+# How to add a custom heightmap: https://github.com/Ad5001/GenPainterPE#add-heightmap
+heightmap_name: normal_1000x500
+
+# Should the generator generate caves and ravines? (BetterGen's)
+generate_caves: true
+
+# Should the generator generate structures? (Trees, bushes, ...)
+generate_structures: true
+
+# Should the generator generate biome's ground? (Grass blocks, sand, dirt, ...)
+generate_custom_ground: true
+
+# Should the generator generate ores? (Diamond, gold, iron... but also dirt, gravel,...)
+generate_ores: true
+
+# Should the generator generate biomes?
+generate_biomes: true

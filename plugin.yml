@@ -1,9 +1,9 @@
 ---
-name: RealWorld
+name: GenPainterPE
 author:  Ad5001
 version: 1.0
 api: [3.0.0-ALPHA9]
-main: Ad5001\RealWorld\Main
+main: Ad5001\GenPainterPE\Main
 commands: []
 permissions: []
 ...
