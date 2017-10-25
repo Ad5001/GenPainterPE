@@ -230,9 +230,6 @@ class GenPainter extends Generator{
         foreach($this->generationPopulators as $populator){
 			$populator->populate($this->level, $chunkX, $chunkZ, $this->random);
         }
-        // Logging
-        echo "Land at " . ($chunkX * 16 + 7) . ", " . ($chunkZ * 16 + 7) . 
-        " with biome " . $this->getBiomeFromPos($chunkZ * 16 + 7, $chunkZ * 16 + 7)->getName() . "\n";
     }	
     
     

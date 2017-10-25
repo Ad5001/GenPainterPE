@@ -156,7 +156,6 @@ class Main extends PluginBase implements Listener{
      */
     public static function prompt(string $message): string{
         if (PHP_OS == 'WINNT') {
-            echo $message;
             $line = stream_get_line(STDIN, 1024, PHP_EOL);
         } else {
             $line = readline($message);
