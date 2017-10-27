@@ -127,7 +127,6 @@ class GenPainter extends Generator{
                 $data = array_merge($data, $config);
                 unset($data["heightmap_name"]);
                 file_put_contents($this->worldpath . "gendata/geninfos.json", json_encode($data));
-                if($this->getServer()->getPluginManager()->getPlugin("PSMCore") !== null) \Ad5001\PSMCore\API::displayNotification("GenPainter", "Generating world " . $level->getName() . "...");
             }
             // Adding symlink to get path later.
             if(file_exists(getcwd() . "/plugins/GenPainterPE/tmp/" . $this->genid)) unlink(getcwd() . "/plugins/GenPainterPE/tmp/" . $this->genid);
