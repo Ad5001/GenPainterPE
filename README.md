@@ -7,10 +7,7 @@ GenPainterPE is a PocketMine plugin which allows you to generate minecraft maps 
 ## How to use GenPainterPE?
 First, look at [the installation part](#installation).     
 Creating a world would take the default config.yml settings, and then apply them to map creation (note: changing theses settings afterwards won't change them for the map. You should regenerate one another to change settings).    
-To create a world, you can:    
-- use a world utility which include a world generation 
-(such as [BetterGen](https://download.ad5001.eu/en/plugins) or ManyWorld) with the generator "genpainter" or,
-- go to your pocketmine.yml, and at the end of the file, add a new world with the generator "genpainter".
+To create a world, you can go to your pocketmine.yml, and at the end of the file, add a new world with the generator "genpainter".
 
 ## Customizing GenPainterPE
 You can customize GenPainterPE's generation by modifing some values in the config.yml.    
