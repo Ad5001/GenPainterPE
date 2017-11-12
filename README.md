@@ -1,4 +1,4 @@
-# GenPainterPE
+# GenPainterPE - [![](https://poggit.pmmp.io/shield.approved/GenPainterPE)](https://poggit.pmmp.io/p/GenPainterPE)
 Pocketmine Generator for Earth and heightmap based generation.
 
 ## What is GenPainterPE?
